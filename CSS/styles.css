@@ -1,0 +1,86 @@
+/************COLUMN COLORS*************/
+.yellow{
+  background-color:hsl(31, 77%, 52%);
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 2%;
+  border-bottom-left-radius: 2%;
+}
+
+.blue{
+  background-color:hsl(184, 100%, 22%);
+  border-radius: 0;
+}
+
+.green{
+  background-color: hsl(179, 100%, 13%);
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+  border-top-right-radius: 2%;
+  border-bottom-right-radius:2%;
+  height:576px;
+}
+
+/***************FONT-COLORS*************/
+.big-heading{
+  color:hsl(0, 0%, 95%);
+  font-family: 'Big Shoulders Display', cursive;
+  line-height:2;
+  font-size: 55px;
+}
+
+.paragraphs{
+  color:hsla(0, 0%, 100%, 0.75);
+  font-family: 'Lexend Deca', sans-serif;
+  line-height:1.5;
+  width:72%
+}
+
+/*************PADDING BETWEEN COLUMNS*************/
+.columnproblem{
+  padding-left:0;
+  padding-right:0;
+}
+
+.container-fluid{
+  padding:7% 16% 10% 16%;
+}
+/***********COLUMNS*************/
+.suvbody{
+  padding:35px;
+}
+
+.luxurybody{
+  padding:36.3px;
+}
+
+/***************IMAGES********************/
+.card-img-top{
+  margin:20px 0 0 20px;
+}
+.carimg {
+  padding:10px 15px 9px 15px;
+  height:90px;
+  width:130px;
+}
+
+/****************BUTTONS**************/
+.round{
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+   border-radius: 28px;
+   margin-top:70px;
+   padding: 10px 30px 10px 30px;
+}
+.rounding{
+  color:hsl(31, 77%, 52%);
+}
+
+.rounding1{
+  color:hsl(184, 100%, 22%);
+}
+
+.rounding2{
+  color:hsl(179, 100%, 13%);
+
+}
